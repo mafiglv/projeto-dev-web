@@ -1,0 +1,192 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-size: 10%;
+    background-color: rgba(255, 255, 255, 1);
+    background: radial-gradient(50% 50% at 50% 50%, rgb(255, 231, 166) 0%, rgb(255, 248.85, 232.69) 100%);   
+    
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 0px;
+    padding-right: 20px; 
+    
+}
+
+.topo-menu{
+    display: flex;
+    gap: 50px;
+}
+.topo-menu-item{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  font-size: 22px;
+  color: rgb(165, 128, 34);
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+.conteudo{
+    width: 971px;
+    height: 541px;;
+       
+}
+
+.conteudo-principal-login{
+    position: relative;
+    display: flex;
+    position: center;
+    flex-direction:column;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    top: 20px;
+    left: 600px;
+    background-color:#e7d17a75;
+    border-radius: 25px;
+    margin-top: 3px;
+    
+}
+
+.conteudo-principal-login h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Kameron';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    color: #876c02;
+    margin-top: 25px;
+}
+.caixa-entrada{
+    position: relative;
+    display: flex;
+    position: center;
+    flex-direction: row;
+    width: 350px;
+    height: 45px;
+    top: 20px;
+    left: 40px;
+    
+    
+} 
+.caixa-entrada input{
+    position: relative;
+    width: 75%;
+    height: 75%;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 240, 255, rgb(255, 190, 13));
+    border-radius: 45px;
+    text-align:left;   
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    color: #876c02;
+    padding: 20px 45px 20px 20px;
+    
+}
+.caixa-entrada input::placeholder{
+    color: rgb(92, 93, 4);
+}
+.caixa-entrada i{
+    position: relative;
+    right: 20px;
+    top: 25%;
+    color: #876c02;
+    transform: translateY(-15%);
+    transform: translateX(-25%);
+    font-size: 15px;
+
+}
+.conteudo .conteudo-principal-lembrar-senha{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+    font-size: 14.5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    color: #504001;
+    top: 30px;
+    left: 125px;
+    
+}
+.conteudo-principal-lembrar-senha label input{
+    accent-color: #5d4802;
+    margin-right: 4px;
+}
+.conteudo-principal-lembrar-senha a{
+    color: #813702;
+    text-decoration: none;
+}
+.conteudo-principal-lembrar-senha a:hover{
+    text-decoration: underline;
+
+}
+
+.conteudo .btn {
+    width: 60%;
+    height: 45px;
+    background: #504001;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    position: relative;
+    left: 73px;
+    top: 40px;
+    font-family: 'Kameron';
+    font-style: normal;
+    font-weight: 550;
+    font-display: swap;
+    color: #fff;
+    font-size: 19px;
+
+}
+.conteudo .link-registro{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    flex-direction:column;
+    font-size: 14.5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    color: #504001;
+    top: 50px;
+    left: 78px;
+    cursor: pointer;
+    
+
+}
+.link-registro p a{
+    color: #813702;
+    text-decoration: none;
+    font-weight: 900;
+}
+.link-registro p a:hover{
+    text-decoration: underline;
+}
+
+
+
+

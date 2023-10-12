@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-size: 10%;
+    background-color: rgba(255, 255, 255, 1);
+    background: radial-gradient(50% 50% at 50% 50%, rgb(255, 231, 166) 0%, rgb(255, 248.85, 232.69) 100%);   
+    
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 0px;
+    padding-right: 20px; 
+    
+}
+
+.topo-menu{
+    display: flex;
+    gap: 50px;
+}
+.topo-menu-item{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  font-size: 22px;
+  color: rgb(165, 128, 34);
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+.conteudo{
+    width: 971px;
+    height: 541px;
+}
+
+.conteudo-principal-retangulo{
+    position: relative;
+    display: flex;
+    position: center;
+    flex-direction: center;
+    width: 871px;
+    height: 541px;
+    top: 20px;
+    left: 251px;
+}
+.conteudo-principal-biquines{
+    position: relative;
+    display: flex;
+    position: center;
+    flex-direction: center;
+    width: 871px;
+    height: 541px;
+    top: -535px;
+    left: 670px;
+
+} 
+
+.conteudo-principal-paragrafo{
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    top: -980px;
+    left: 285px;
+    color: rgb(92, 69, 0);
+    font-size: 20px;   
+    text-indent: 30px;
+    text-align: justify;
+    margin-bottom: 15px;   
+    font-family: 'Kameron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/kameron/v16/vm8pdR7vXErQxuznqrUS3z1Uw3nq4Ne3cYcSt5LBCA.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    
+
+}
+.conteudo-secundario{
+    width: 0px;
+    height: 0px;
+}
+.conteudo-secundario-img{
+    position: relative;
+    display: flex;    
+    flex-direction: center;
+    
+    top: -1000px;
+    left: 871px;
+
+}
+button{
+    width: 250px;
+    height: 80px;
+    background-color: rgb(127, 95, 0);
+    border: none;
+    border-radius: 25px;
+ 
+}
+.mg-login-cadastro-site-botao{
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: center;
+    top: 40px;
+    left: 650px;   
+    text-align: right;
+    display: inline-block; 
+    padding: 5px 20px; 
+    background-color: #876c02; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer;
+    font-family: 'Kameron';
+    font-style:normal;
+    font-weight: 0px;
+    font-display: swap;
+    font-size: 25px;
+    
+
+}
+.mg-login-cadastro-site-botao a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+}
+.link-registro a:hover{
+    text-decoration: underline;
+}
+
+.mg-login-cadastro-site-icon{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: center;
+    top: 80px;
+    left: 750px;   
+    text-align: center;
+    display: inline-block; 
+    padding: 5px 20px; 
+    cursor: pointer;
+    z-index: 51;
+    
+}
+
+   
+    
+
+
